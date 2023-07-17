@@ -1,0 +1,236 @@
+namespace WeatherApp
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.city_input = new System.Windows.Forms.TextBox();
+            this.Result = new System.Windows.Forms.TextBox();
+            this.TBCity = new System.Windows.Forms.Label();
+            this.Temperature = new System.Windows.Forms.Label();
+            this.weather_conditions = new System.Windows.Forms.Label();
+            this.wind = new System.Windows.Forms.Label();
+            this.wind_direction = new System.Windows.Forms.Label();
+            this.pressure = new System.Windows.Forms.Label();
+            this.humidity = new System.Windows.Forms.Label();
+            this.lab_temp = new System.Windows.Forms.Label();
+            this.lab_weather = new System.Windows.Forms.Label();
+            this.wind_box = new System.Windows.Forms.Label();
+            this.wind_direction_box = new System.Windows.Forms.Label();
+            this.pressure_box = new System.Windows.Forms.Label();
+            this.humidity_box = new System.Windows.Forms.Label();
+            this.btn_searchh = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // city_input
+            // 
+            this.city_input.Location = new System.Drawing.Point(142, 41);
+            this.city_input.Name = "city_input";
+            this.city_input.Size = new System.Drawing.Size(163, 20);
+            this.city_input.TabIndex = 1;
+            // 
+            // Result
+            // 
+            this.Result.Location = new System.Drawing.Point(15, 41);
+            this.Result.Name = "Result";
+            this.Result.Size = new System.Drawing.Size(111, 20);
+            this.Result.TabIndex = 4;
+            this.Result.Text = "Results for city name:";
+            // 
+            // TBCity
+            // 
+            this.TBCity.AutoSize = true;
+            this.TBCity.Location = new System.Drawing.Point(188, 9);
+            this.TBCity.Name = "TBCity";
+            this.TBCity.Size = new System.Drawing.Size(27, 13);
+            this.TBCity.TabIndex = 17;
+            this.TBCity.Text = "City:";
+            // 
+            // Temperature
+            // 
+            this.Temperature.AutoSize = true;
+            this.Temperature.Location = new System.Drawing.Point(12, 75);
+            this.Temperature.Name = "Temperature";
+            this.Temperature.Size = new System.Drawing.Size(70, 13);
+            this.Temperature.TabIndex = 18;
+            this.Temperature.Text = "Temperature:";
+            // 
+            // weather_conditions
+            // 
+            this.weather_conditions.AutoSize = true;
+            this.weather_conditions.Location = new System.Drawing.Point(13, 98);
+            this.weather_conditions.Name = "weather_conditions";
+            this.weather_conditions.Size = new System.Drawing.Size(102, 13);
+            this.weather_conditions.TabIndex = 19;
+            this.weather_conditions.Text = "Weather conditions:";
+            // 
+            // wind
+            // 
+            this.wind.AutoSize = true;
+            this.wind.Location = new System.Drawing.Point(13, 122);
+            this.wind.Name = "wind";
+            this.wind.Size = new System.Drawing.Size(35, 13);
+            this.wind.TabIndex = 20;
+            this.wind.Text = "Wind:";
+            // 
+            // wind_direction
+            // 
+            this.wind_direction.AutoSize = true;
+            this.wind_direction.Location = new System.Drawing.Point(13, 146);
+            this.wind_direction.Name = "wind_direction";
+            this.wind_direction.Size = new System.Drawing.Size(78, 13);
+            this.wind_direction.TabIndex = 21;
+            this.wind_direction.Text = "Wind direction:";
+            // 
+            // pressure
+            // 
+            this.pressure.AutoSize = true;
+            this.pressure.Location = new System.Drawing.Point(13, 168);
+            this.pressure.Name = "pressure";
+            this.pressure.Size = new System.Drawing.Size(51, 13);
+            this.pressure.TabIndex = 22;
+            this.pressure.Text = "Pressure:";
+            // 
+            // humidity
+            // 
+            this.humidity.AutoSize = true;
+            this.humidity.Location = new System.Drawing.Point(14, 191);
+            this.humidity.Name = "humidity";
+            this.humidity.Size = new System.Drawing.Size(50, 13);
+            this.humidity.TabIndex = 23;
+            this.humidity.Text = "Humidity:";
+            // 
+            // lab_temp
+            // 
+            this.lab_temp.AutoSize = true;
+            this.lab_temp.Location = new System.Drawing.Point(79, 75);
+            this.lab_temp.Name = "lab_temp";
+            this.lab_temp.Size = new System.Drawing.Size(27, 13);
+            this.lab_temp.TabIndex = 24;
+            this.lab_temp.Text = "N/A";
+            // 
+            // lab_weather
+            // 
+            this.lab_weather.AutoSize = true;
+            this.lab_weather.Location = new System.Drawing.Point(112, 98);
+            this.lab_weather.Name = "lab_weather";
+            this.lab_weather.Size = new System.Drawing.Size(27, 13);
+            this.lab_weather.TabIndex = 25;
+            this.lab_weather.Text = "N/A";
+            // 
+            // wind_box
+            // 
+            this.wind_box.AutoSize = true;
+            this.wind_box.Location = new System.Drawing.Point(45, 122);
+            this.wind_box.Name = "wind_box";
+            this.wind_box.Size = new System.Drawing.Size(27, 13);
+            this.wind_box.TabIndex = 26;
+            this.wind_box.Text = "N/A";
+            // 
+            // wind_direction_box
+            // 
+            this.wind_direction_box.AutoSize = true;
+            this.wind_direction_box.Location = new System.Drawing.Point(88, 146);
+            this.wind_direction_box.Name = "wind_direction_box";
+            this.wind_direction_box.Size = new System.Drawing.Size(27, 13);
+            this.wind_direction_box.TabIndex = 27;
+            this.wind_direction_box.Text = "N/A";
+            // 
+            // pressure_box
+            // 
+            this.pressure_box.AutoSize = true;
+            this.pressure_box.Location = new System.Drawing.Point(64, 168);
+            this.pressure_box.Name = "pressure_box";
+            this.pressure_box.Size = new System.Drawing.Size(27, 13);
+            this.pressure_box.TabIndex = 28;
+            this.pressure_box.Text = "N/A";
+            // 
+            // humidity_box
+            // 
+            this.humidity_box.AutoSize = true;
+            this.humidity_box.Location = new System.Drawing.Point(64, 191);
+            this.humidity_box.Name = "humidity_box";
+            this.humidity_box.Size = new System.Drawing.Size(27, 13);
+            this.humidity_box.TabIndex = 29;
+            this.humidity_box.Text = "N/A";
+            // 
+            // btn_searchh
+            // 
+            this.btn_searchh.BackColor = System.Drawing.Color.White;
+            this.btn_searchh.ForeColor = System.Drawing.Color.Black;
+            this.btn_searchh.Location = new System.Drawing.Point(178, 70);
+            this.btn_searchh.Name = "btn_searchh";
+            this.btn_searchh.Size = new System.Drawing.Size(75, 23);
+            this.btn_searchh.TabIndex = 30;
+            this.btn_searchh.Text = "Search";
+            this.btn_searchh.UseVisualStyleBackColor = false;
+            this.btn_searchh.Click += new System.EventHandler(this.btn_searchh_Click);
+            // 
+            // Form1
+            // 
+            this.ClientSize = new System.Drawing.Size(328, 227);
+            this.Controls.Add(this.btn_searchh);
+            this.Controls.Add(this.humidity_box);
+            this.Controls.Add(this.pressure_box);
+            this.Controls.Add(this.wind_direction_box);
+            this.Controls.Add(this.wind_box);
+            this.Controls.Add(this.lab_weather);
+            this.Controls.Add(this.lab_temp);
+            this.Controls.Add(this.humidity);
+            this.Controls.Add(this.pressure);
+            this.Controls.Add(this.wind_direction);
+            this.Controls.Add(this.wind);
+            this.Controls.Add(this.weather_conditions);
+            this.Controls.Add(this.Temperature);
+            this.Controls.Add(this.TBCity);
+            this.Controls.Add(this.Result);
+            this.Controls.Add(this.city_input);
+            this.Name = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.TextBox city_input;
+        private System.Windows.Forms.TextBox Result;
+        private System.Windows.Forms.Label TBCity;
+        private System.Windows.Forms.Label Temperature;
+        private System.Windows.Forms.Label weather_conditions;
+        private System.Windows.Forms.Label wind;
+        private System.Windows.Forms.Label wind_direction;
+        private System.Windows.Forms.Label pressure;
+        private System.Windows.Forms.Label humidity;
+        private System.Windows.Forms.Label lab_temp;
+        private System.Windows.Forms.Label lab_weather;
+        private System.Windows.Forms.Label wind_box;
+        private System.Windows.Forms.Label wind_direction_box;
+        private System.Windows.Forms.Label pressure_box;
+        private System.Windows.Forms.Label humidity_box;
+        private System.Windows.Forms.Button btn_searchh;
+    }
+}
